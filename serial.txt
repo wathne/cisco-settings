@@ -1,0 +1,11 @@
+serial.txt
+--------------------------------------------------------------------------------
+
+macOS, serial console and logging:
+----------------------------------
+Open two terminals, e.g. /dev/ttys000 and /dev/ttys001.
+/dev/ttys???> tty
+/dev/ttys000> screen -L /dev/tty.usbmodem1101 9600
+/dev/ttys000> screen -L /dev/tty.usbmodem101 9600
+/dev/ttys001> tail -f screenlog.0
+
