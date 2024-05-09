@@ -1,0 +1,17 @@
+license.txt
+--------------------------------------------------------------------------------
+
+The IP Services Right-To-Use (RTU) license is not applicable on 3560-C.
+Activate the IP Services Right-To-Use (RTU) license on 3560-CX.
+
+Cisco Catalyst 3560-CX, IP Services RTU license:
+------------------------------------------------
+Switch>enable
+Switch#configure terminal
+Switch(config)#no service call-home ! default
+Switch(config)#end
+Switch#license right-to-use activate ipservices all acceptEULA
+Switch#reload
+    System configuration has been modified. Save? [yes/no]: 
+    Proceed with reload? [confirm]
+
