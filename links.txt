@@ -1,0 +1,13 @@
+links.txt
+--------------------------------------------------------------------------------
+
+command reference:
+https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/fundamentals/command/cf_command_ref/Introduction.html
+
+confreg:
+https://www.cisco.com/c/en/us/support/docs/routers/10000-series-routers/50421-config-register-use.html
+http://www.hopasaurus.com/CISCO_confreg.html
+
+hardening:
+https://www.cisco.com/c/en/us/support/docs/ip/access-lists/13608-21.html
+
