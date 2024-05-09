@@ -1,0 +1,18 @@
+ssh.txt
+--------------------------------------------------------------------------------
+
+macOS, SSH:
+-----------
+> open -e ~/.ssh/config
+-----------------------
+Host switch8801
+    KexAlgorithms +diffie-hellman-group14-sha1
+    HostkeyAlgorithms +ssh-rsa
+Host switch8802
+    KexAlgorithms +diffie-hellman-group14-sha1
+    HostkeyAlgorithms +ssh-rsa
+-----------------------
+
+> ssh admin@switch8801
+> ssh admin@switch8802
+
